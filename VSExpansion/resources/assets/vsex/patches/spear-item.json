@@ -1,0 +1,91 @@
+[
+  {
+	"file": "game:itemtypes/tool/spear",
+	"op": "replace",
+	"path": "/variantgroups/0/states",
+	"value": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron" ]
+  },
+  {
+	"file": "game:itemtypes/tool/spear",
+	"op": "replace",
+	"path": "/shapeByType",
+	"value": {
+	  "spear-granite": { "base": "item/tool/spear-stone" },
+	  "spear-andesite": { "base": "item/tool/spear-stone" },
+	  "spear-basalt": { "base": "item/tool/spear-stone" },
+	  "spear-obsidian": { "base": "item/tool/spear-stone" },
+	  "spear-peridotite": { "base": "item/tool/spear-stone" },
+	  "spear-flint": { "base": "item/tool/spear-stone" },
+
+	  "spear-copper": { "base": "item/tool/spear-copper" },
+
+	  "spear-tinbronze": { "base": "item/tool/spear-bronze" },
+	  "spear-bismuthbronze": { "base": "item/tool/spear-bronze" },
+	  "spear-blackbronze": { "base": "item/tool/spear-bronze" },
+	  "spear-gold": { "base": "item/tool/spear-bronze" },
+	  "spear-silver": { "base": "item/tool/spear-bronze" },
+	  "spear-iron": { "base": "game:item/tool/spear-bronze" }
+	}
+  },
+  {
+	"file": "game:itemtypes/tool/spear",
+	"op": "replace",
+	"path": "/attackpowerbytype",
+	"value": {
+	  "spear-granite": 1.75,
+	  "spear-andesite": 1.75,
+	  "spear-peridotite": 1.75,
+	  "spear-basalt": 1.75,
+	  "spear-flint": 2,
+	  "spear-obsidian": 2.25,
+	  "spear-copper": 2.75,
+	  "spear-gold": 3,
+	  "spear-silver": 3,
+	  "spear-bismuthbronze": 3.25,
+	  "spear-tinbronze": 3.75,
+	  "spear-blackbronze": 4,
+	  "spear-iron": 5
+	}
+  },
+  {
+	"file": "game:itemtypes/tool/spear",
+	"op": "replace",
+	"path": "/attributes/damageByType",
+	"value": {
+	  "*-granite": 4,
+	  "*-andesite": 4,
+	  "*-peridotite": 4,
+	  "*-basalt": 4,
+	  "*-flint": 5,
+	  "*-obsidian": 5.25,
+	  "*-copper": 5.75,
+	  "*-gold": 6,
+	  "*-silver": 6,
+	  "*-bismuthbronze": 6.5,
+	  "*-tinbronze": 7.5,
+	  "*-blackbronze": 8,
+	  "*-iron": 9
+	}
+  },
+  {
+	"file": "game:itemtypes/tool/spear",
+	"op": "replace",
+	"path": "/durabilitybytype",
+	"value": {
+	  "spear-granite": 16,
+	  "spear-andesite": 16,
+	  "spear-basalt": 16,
+	  "spear-peridotite": 16,
+	  "spear-obsidian": 45,
+
+	  "spear-flint": 32,
+	  "spear-copper": 140,
+	  "spear-gold": 90,
+	  "spear-silver": 90,
+	  "spear-tinbronze": 250,
+	  "spear-bismuthbronze": 210,
+	  "spear-blackbronze": 300,
+	  "spear-iron": 400
+	}
+  }
+]

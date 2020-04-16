@@ -1,0 +1,72 @@
+[
+  {
+	"file": "game:itemtypes/toolhead/spearhead",
+	"op": "replace",
+	"path": "/variantgroups/0/states",
+	"value": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron" ]
+  },
+  {
+	"file": "game:itemtypes/toolhead/spearhead",
+	"op": "replace",
+	"path": "/shapeByType",
+	"value": {
+	  "spearhead-granite": { "base": "game:item/tool/spear-stone" },
+	  "spearhead-andesite": { "base": "game:item/tool/spear-stone" },
+	  "spearhead-basalt": { "base": "game:item/tool/spear-stone" },
+	  "spearhead-obsidian": { "base": "game:item/tool/spear-stone" },
+	  "spearhead-peridotite": { "base": "game:item/tool/spear-stone" },
+	  "spearhead-flint": { "base": "game:item/tool/spear-stone" },
+
+	  "spearhead-copper": { "base": "game:item/tool/spearhead-copper" },
+
+	  "spearhead-tinbronze": { "base": "game:item/tool/spear-bronze" },
+	  "spearhead-bismuthbronze": { "base": "game:item/tool/spear-bronze" },
+	  "spearhead-blackbronze": { "base": "game:item/tool/spear-bronze" },
+	  "spearhead-gold": { "base": "game:item/tool/spear-bronze" },
+	  "spearhead-silver": { "base": "game:item/tool/spear-bronze" },
+	  "spearhead-iron": { "base": "game:item/tool/spear-bronze" }
+	}
+  },
+  {
+	"file": "game:itemtypes/toolhead/spearhead",
+	"op": "replace",
+	"path": "/texturesByType",
+	"value": {
+	  "spearhead-granite": {
+		"material": { "base": "game:block/stone/rock/{material}1" },
+		"string": { "base": "game:block/transparent" },
+		"handle": { "base": "game:block/transparent" }
+	  },
+	  "spearhead-andesite": {
+		"material": { "base": "game:block/stone/rock/{material}1" },
+		"string": { "base": "game:block/transparent" },
+		"handle": { "base": "game:block/transparent" }
+	  },
+	  "spearhead-basalt": {
+		"material": { "base": "game:block/stone/rock/{material}1" },
+		"string": { "base": "game:block/transparent" },
+		"handle": { "base": "game:block/transparent" }
+	  },
+	  "spearhead-obsidian": {
+		"material": { "base": "game:block/stone/rock/{material}1" },
+		"string": { "base": "game:block/transparent" },
+		"handle": { "base": "game:block/transparent" }
+	  },
+	  "spearhead-peridotite": {
+		"material": { "base": "game:block/stone/rock/{material}1" },
+		"string": { "base": "game:block/transparent" },
+		"handle": { "base": "game:block/transparent" }
+	  },
+	  "spearhead-flint": {
+		"material": { "base": "game:block/stone/{material}" },
+		"string": { "base": "game:block/transparent" },
+		"handle": { "base": "game:block/transparent" }
+	  },
+	  "*": {
+		"material": { "base": "game:item/tool/material/{material}" },
+		"string": { "base": "game:block/transparent" },
+		"handle": { "base": "game:block/transparent" }
+	  }
+	}
+  }
+]

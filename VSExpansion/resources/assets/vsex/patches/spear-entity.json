@@ -1,0 +1,69 @@
+[
+  {
+	"file": "game:entities/spear",
+	"op": "replace",
+	"path": "/variantgroups/0/states",
+	"value": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron" ]
+  },
+  {
+	"file": "game:entities/spear",
+	"op": "replace",
+	"path": "/client/shapeByType",
+	"value": {
+	  "spear-granite": {
+		"base": "game:item/tool/spear-stone",
+		"offsetX": -0.8125
+	  },
+	  "spear-andesite": {
+		"base": "game:item/tool/spear-stone",
+		"offsetX": -0.8125
+	  },
+	  "spear-basalt": {
+		"base": "game:item/tool/spear-stone",
+		"offsetX": -0.8125
+	  },
+	  "spear-obsidian": {
+		"base": "game:item/tool/spear-stone",
+		"offsetX": -0.8125
+	  },
+	  "spear-peridotite": {
+		"base": "game:item/tool/spear-stone",
+		"offsetX": -0.8125
+	  },
+	  "spear-flint": {
+		"base": "game:item/tool/spear-stone",
+		"offsetX": -0.8125
+	  },
+
+	  "spear-copper": {
+		"base": "game:item/tool/spear-copper",
+		"offsetX": -0.8125
+	  },
+
+	  "spear-tinbronze": {
+		"base": "game:item/tool/spear-bronze",
+		"offsetX": -0.8125
+	  },
+	  "spear-bismuthbronze": {
+		"base": "game:item/tool/spear-bronze",
+		"offsetX": -0.8125
+	  },
+	  "spear-blackbronze": {
+		"base": "game:item/tool/spear-bronze",
+		"offsetX": -0.8125
+	  },
+	  "spear-gold": {
+		"base": "game:item/tool/spear-bronze",
+		"offsetX": -0.8125
+	  },
+	  "spear-silver": {
+		"base": "game:item/tool/spear-bronze",
+		"offsetX": -0.8125
+	  },
+	  "spear-iron": {
+		"base": "game:item/tool/spear-bronze",
+		"offsetX": -0.8125
+	  }
+	}
+  }
+]

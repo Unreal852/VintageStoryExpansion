@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "name": "VintageStory Expansion",
+  "modid": "vsex",
+  "version": "1.0.0",
+  "description": "Add various things.",
+  "website": "",
+  "authors": [ "Unreal852" ],
+
+  "dependencies": {
+    "game": "1.12.2"
+  }
+}
